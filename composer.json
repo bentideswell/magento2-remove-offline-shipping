@@ -1,0 +1,14 @@
+{
+    "name": "fishpig/magento2-remove-offline-shipping",
+    "description": "Remove OfflineShipping.",
+    "type": "project",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Magento\\OfflineShipping\\": "Mock/Magento/OfflineShipping"
+        }
+    },
+    "replace": {
+        "magento/module-offline-shipping": "*"
+    }
+}
